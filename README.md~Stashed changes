@@ -1,0 +1,4 @@
+This is gmail login page automation using Page Object model
+framework used TestNG, Apache POI, ExtentReporting 
+
+Run using testng.xml 
