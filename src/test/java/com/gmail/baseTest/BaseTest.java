@@ -22,7 +22,7 @@ public class BaseTest {
     public static  void openBrowser(){
         try{
             prop = new Properties();
-            FileInputStream fis = new FileInputStream("C:\\Users\\ken20963\\Videos\\gmail\\src\\main\\java\\com\\gmail\\Configuration\\Config.Properties");
+            FileInputStream fis = new FileInputStream("src/main/java/com/gmail/Configuration/Config.Properties");
             prop.load(fis);
             System.out.println("Testing");
 

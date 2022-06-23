@@ -2,24 +2,25 @@ package com.gmail.pages;
 
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage implements ILoginPage {
+public class LoginPage  extends BaseLocalFundTransfer{
 
     @Override
     public String VerifyTitle(WebDriver driver) {
-        return driver.findElement(verifyTile).getText();
+        return super.VerifyTitle(driver);
     }
 
     @Override
     public void EnterEmail(WebDriver driver, String email) {
-          driver.findElement(email_txt).click();
-          driver.findElement(email_txt).sendKeys(email);
-
+        super.EnterEmail(driver, email);
     }
 
     @Override
     public WelcomePage ClickNext(WebDriver driver) {
-        driver.findElement(nextBtn).click();
-        return new WelcomePage();
+        return super.ClickNext(driver);
+    }
 
+    @Override
+    public void Testing() {
+        super.Testing();
     }
 }
