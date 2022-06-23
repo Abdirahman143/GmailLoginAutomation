@@ -45,7 +45,7 @@ public class BaseTest {
             System.out.println("chrome driver");
         }
         else if(prop.getProperty("browser").equalsIgnoreCase("FF")){
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\ken20963\\Pictures\\Drivers/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver.exe");
             driver = new FirefoxDriver();
         }
 
