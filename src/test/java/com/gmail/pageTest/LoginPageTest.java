@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginPageTest extends BaseTest {
 LoginPage loginPage = new LoginPage();
     @BeforeMethod
-    public void initialize(){
+    public void initialize() {
         openBrowser();
         SetUp();
 

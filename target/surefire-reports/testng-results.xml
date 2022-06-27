@@ -2,34 +2,34 @@
 <testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T21:17:42 EAT" name="Suite" finished-at="2022-06-23T21:18:00 EAT" duration-ms="18186">
+  <suite started-at="2022-06-27T10:08:28 EAT" name="Suite" finished-at="2022-06-27T10:08:48 EAT" duration-ms="20194">
     <groups>
     </groups>
-    <test started-at="2022-06-23T21:17:42 EAT" name="Test" finished-at="2022-06-23T21:18:00 EAT" duration-ms="18186">
+    <test started-at="2022-06-27T10:08:28 EAT" name="Test" finished-at="2022-06-27T10:08:48 EAT" duration-ms="20194">
       <class name="com.gmail.pageTest.LoginPageTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.gmail.pageTest.LoginPageTest@66c61024]" started-at="2022-06-23T21:17:42 EAT" name="initialize" finished-at="2022-06-23T21:17:52 EAT" duration-ms="9626" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.gmail.pageTest.LoginPageTest@66c92293]" started-at="2022-06-27T10:08:28 EAT" name="initialize" finished-at="2022-06-27T10:08:40 EAT" duration-ms="12001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="verifyTitle()[pri:-1, instance:com.gmail.pageTest.LoginPageTest@66c61024]" started-at="2022-06-23T21:17:52 EAT" name="verifyTitle" finished-at="2022-06-23T21:17:52 EAT" duration-ms="67" status="PASS">
+        <test-method signature="verifyTitle()[pri:-1, instance:com.gmail.pageTest.LoginPageTest@66c92293]" started-at="2022-06-27T10:08:40 EAT" name="verifyTitle" finished-at="2022-06-27T10:08:40 EAT" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.gmail.pageTest.LoginPageTest@66c61024]" started-at="2022-06-23T21:17:52 EAT" name="initialize" finished-at="2022-06-23T21:18:00 EAT" duration-ms="7804" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.gmail.pageTest.LoginPageTest@66c92293]" started-at="2022-06-27T10:08:40 EAT" name="initialize" finished-at="2022-06-27T10:08:48 EAT" duration-ms="7927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="Email()[pri:0, instance:com.gmail.pageTest.LoginPageTest@66c61024]" started-at="2022-06-23T21:18:00 EAT" name="Email" finished-at="2022-06-23T21:18:00 EAT" duration-ms="372" status="PASS">
+        <test-method signature="Email()[pri:0, instance:com.gmail.pageTest.LoginPageTest@66c92293]" started-at="2022-06-27T10:08:48 EAT" name="Email" finished-at="2022-06-27T10:08:48 EAT" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Email -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.gmail.pageTest.LoginPageTest@66c61024]" started-at="2022-06-23T21:18:01 EAT" name="CloseBrowser" finished-at="2022-06-23T21:18:02 EAT" duration-ms="1019" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.gmail.pageTest.LoginPageTest@66c92293]" started-at="2022-06-27T10:08:48 EAT" name="CloseBrowser" finished-at="2022-06-27T10:08:48 EAT" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.gmail.pageTest.LoginPageTest -->
       <class name="com.gmail.pageTest.WelcomePageTest">
-        <test-method signature="ClickNext()[pri:1, instance:com.gmail.pageTest.WelcomePageTest@61544ae6]" started-at="2022-06-23T21:18:00 EAT" name="ClickNext" finished-at="2022-06-23T21:18:00 EAT" duration-ms="274" status="PASS">
+        <test-method signature="ClickNext()[pri:1, instance:com.gmail.pageTest.WelcomePageTest@39de3d36]" started-at="2022-06-27T10:08:48 EAT" name="ClickNext" finished-at="2022-06-27T10:08:48 EAT" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickNext -->
