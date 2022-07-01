@@ -36,8 +36,8 @@ public class BaseTest {
         }
     }
     public static void SetUp()  {
-      WebDriverManager.chromedriver().cachePath("Drivers").setup();
-      WebDriverManager.firefoxdriver().cachePath("Drivers").setup();
+//      WebDriverManager.chromedriver().cachePath("Drivers").setup();
+    //  WebDriverManager.firefoxdriver().cachePath("Drivers").setup();
 
         System.out.println("After the driver");
 
@@ -46,6 +46,7 @@ public class BaseTest {
             System.out.println("chrome driver");
         }
         else if(prop.getProperty("browser").equalsIgnoreCase("FF")){
+            System.setProperty("webdriver.gecko.driver","Drivers/geckodriver.exe");
             driver = new FirefoxDriver();
         }
 
