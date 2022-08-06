@@ -20,7 +20,8 @@ LoginPage loginPage = new LoginPage();
         String Actual = loginPage.VerifyTitle(driver);
         String Expected = "Sign in";
         Assert.assertEquals(Actual,Expected);
-        System.out.println("Testing");
+        
+
 
     }
 
