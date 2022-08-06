@@ -1,0 +1,6 @@
+com\gmail\pages\LoginPage.class
+com\gmail\pages\BaseLocalFundTransfer.class
+com\gmail\pages\ILoginPage.class
+com\gmail\constant\DriverType.class
+com\gmail\pages\WelcomePage.class
+com\gmail\pages\HomePage.class
