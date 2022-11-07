@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gmail" />
         <module name="GmailLoginAutomation-master" />
+        <module name="GmailLogin" />
         <module name="GmailLoginAutomation" />
       </profile>
     </annotationProcessing>
