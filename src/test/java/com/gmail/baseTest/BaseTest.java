@@ -36,12 +36,13 @@ public class BaseTest {
         }
     }
     public static void SetUp()  {
-      WebDriverManager.chromedriver().cachePath("Drivers").setup();
+    //  WebDriverManager.chromedriver().cachePath("Drivers").setup();
     //  WebDriverManager.firefoxdriver().cachePath("Drivers").setup();
 
         System.out.println("After the driver");
 
         if(prop.getProperty("browser").equalsIgnoreCase("chrome")){
+            System.setProperty("webdriver.chrome.driver","Drivers/chromedriver.exe");
             driver = new ChromeDriver();
             System.out.println("chrome driver");
         }
@@ -51,6 +52,7 @@ public class BaseTest {
         }
 
         else if(prop.getProperty("browser").equalsIgnoreCase("EE")){
+            System.setProperty("webdriver.edge.driver","Drivers/msedgedriver.exe");
             driver = new EdgeDriver();
         }
 //        WebDriver driver;

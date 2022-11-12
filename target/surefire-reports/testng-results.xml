@@ -2,32 +2,32 @@
 <testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-12T08:07:58 EAT" name="Surefire suite" finished-at="2022-11-12T08:07:58 EAT" duration-ms="592">
+  <suite started-at="2022-11-12T08:29:05 EAT" name="Surefire suite" finished-at="2022-11-12T08:29:06 EAT" duration-ms="765">
     <groups>
     </groups>
-    <test started-at="2022-11-12T08:07:58 EAT" name="Surefire test" finished-at="2022-11-12T08:07:58 EAT" duration-ms="592">
+    <test started-at="2022-11-12T08:29:05 EAT" name="Surefire test" finished-at="2022-11-12T08:29:06 EAT" duration-ms="765">
       <class name="com.gmail.pageTest.LoginPageTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.gmail.pageTest.LoginPageTest@3a1d593e]" started-at="2022-11-12T08:07:42 EAT" name="initialize" finished-at="2022-11-12T08:07:58 EAT" duration-ms="15625" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.gmail.pageTest.LoginPageTest@3a1d593e]" started-at="2022-11-12T08:28:59 EAT" name="initialize" finished-at="2022-11-12T08:29:05 EAT" duration-ms="6758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="verifyTitle()[pri:-1, instance:com.gmail.pageTest.LoginPageTest@3a1d593e]" started-at="2022-11-12T08:07:58 EAT" name="verifyTitle" finished-at="2022-11-12T08:07:58 EAT" duration-ms="84" status="PASS">
+        <test-method signature="verifyTitle()[pri:-1, instance:com.gmail.pageTest.LoginPageTest@3a1d593e]" started-at="2022-11-12T08:29:05 EAT" name="verifyTitle" finished-at="2022-11-12T08:29:06 EAT" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method signature="Email()[pri:0, instance:com.gmail.pageTest.LoginPageTest@3a1d593e]" started-at="2022-11-12T08:07:58 EAT" name="Email" finished-at="2022-11-12T08:07:58 EAT" duration-ms="159" status="PASS">
+        <test-method signature="Email()[pri:0, instance:com.gmail.pageTest.LoginPageTest@3a1d593e]" started-at="2022-11-12T08:29:06 EAT" name="Email" finished-at="2022-11-12T08:29:06 EAT" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Email -->
       </class> <!-- com.gmail.pageTest.LoginPageTest -->
       <class name="com.gmail.pageTest.WelcomePageTest">
-        <test-method signature="ClickNext()[pri:1, instance:com.gmail.pageTest.WelcomePageTest@361c294e]" started-at="2022-11-12T08:07:58 EAT" name="ClickNext" finished-at="2022-11-12T08:07:58 EAT" duration-ms="203" status="PASS">
+        <test-method signature="ClickNext()[pri:1, instance:com.gmail.pageTest.WelcomePageTest@361c294e]" started-at="2022-11-12T08:29:06 EAT" name="ClickNext" finished-at="2022-11-12T08:29:06 EAT" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickNext -->
       </class> <!-- com.gmail.pageTest.WelcomePageTest -->
       <class name="com.gmail.baseTest.BaseTest">
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.gmail.baseTest.BaseTest@62dae245]" started-at="2022-11-12T08:07:59 EAT" name="CloseBrowser" finished-at="2022-11-12T08:07:59 EAT" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.gmail.baseTest.BaseTest@62dae245]" started-at="2022-11-12T08:29:06 EAT" name="CloseBrowser" finished-at="2022-11-12T08:29:06 EAT" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
