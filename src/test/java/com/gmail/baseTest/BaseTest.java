@@ -36,7 +36,7 @@ public class BaseTest {
         }
     }
     public static void SetUp()  {
-//      WebDriverManager.chromedriver().cachePath("Drivers").setup();
+      WebDriverManager.chromedriver().cachePath("Drivers").setup();
     //  WebDriverManager.firefoxdriver().cachePath("Drivers").setup();
 
         System.out.println("After the driver");
