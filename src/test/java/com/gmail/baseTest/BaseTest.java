@@ -52,7 +52,7 @@ public class BaseTest {
         }
 
         else if(prop.getProperty("browser").equalsIgnoreCase("EE")){
-            System.setProperty("webdriver.edge.driver","Drivers/msedgedriver.exe");
+            System.setProperty("webdriver.edge.driver","./Drivers/msedgedriver.exe");
             driver = new EdgeDriver();
         }
 //        WebDriver driver;
